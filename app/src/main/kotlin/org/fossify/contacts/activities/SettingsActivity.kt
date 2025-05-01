@@ -43,8 +43,7 @@ class SettingsActivity : SimpleActivity() {
     override fun onResume() {
         super.onResume()
         setupToolbar(binding.settingsToolbar, NavigationIcon.Arrow)
-
-        setupCustomizeColors()
+        
         setupManageShownContactFields()
         setupManageShownTabs()
         setupFontSize()
@@ -68,7 +67,6 @@ class SettingsActivity : SimpleActivity() {
         updateTextColors(binding.settingsHolder)
 
         arrayOf(
-            binding.settingsColorCustomizationSectionLabel,
             binding.settingsGeneralSettingsLabel,
             binding.settingsMainScreenLabel,
             binding.settingsListViewLabel,
@@ -76,12 +74,6 @@ class SettingsActivity : SimpleActivity() {
             binding.settingsMigratingLabel
         ).forEach {
             it.setTextColor(getProperPrimaryColor())
-        }
-    }
-
-    private fun setupCustomizeColors() {
-        binding.settingsColorCustomizationHolder.setOnClickListener {
-            startCustomizationActivity()
         }
     }
 
