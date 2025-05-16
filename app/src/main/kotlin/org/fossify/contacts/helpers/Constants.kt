@@ -1,4 +1,4 @@
-package org.fossify.contacts.helpers
+package org.fossify.arfoxcontacts.helpers
 
 import org.fossify.commons.helpers.TAB_CONTACTS
 import org.fossify.commons.helpers.TAB_FAVORITES

@@ -1,10 +1,10 @@
-package org.fossify.contacts.receivers
+package org.fossify.arfoxcontacts.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.PowerManager
-import org.fossify.contacts.extensions.backupContacts
+import org.fossify.arfoxcontacts.extensions.backupContacts
 
 class AutomaticBackupReceiver : BroadcastReceiver() {
 

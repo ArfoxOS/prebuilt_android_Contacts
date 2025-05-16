@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.content.ActivityNotFoundException
 import android.content.ContentUris
@@ -25,12 +25,12 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.contacts.*
-import org.fossify.contacts.R
-import org.fossify.contacts.databinding.*
-import org.fossify.contacts.dialogs.ChooseSocialDialog
-import org.fossify.contacts.dialogs.ManageVisibleFieldsDialog
-import org.fossify.contacts.extensions.*
-import org.fossify.contacts.helpers.*
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.databinding.*
+import org.fossify.arfoxcontacts.dialogs.ChooseSocialDialog
+import org.fossify.arfoxcontacts.dialogs.ManageVisibleFieldsDialog
+import org.fossify.arfoxcontacts.extensions.*
+import org.fossify.arfoxcontacts.helpers.*
 import java.util.Locale
 
 class ViewContactActivity : ContactActivity() {

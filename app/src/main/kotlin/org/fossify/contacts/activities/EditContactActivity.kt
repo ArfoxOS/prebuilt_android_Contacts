@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -36,20 +36,20 @@ import org.fossify.commons.models.contacts.Email
 import org.fossify.commons.models.contacts.Event
 import org.fossify.commons.models.contacts.Organization
 import org.fossify.commons.views.MyAutoCompleteTextView
-import org.fossify.contacts.R
-import org.fossify.contacts.adapters.AutoCompleteTextViewAdapter
-import org.fossify.contacts.databinding.*
-import org.fossify.contacts.dialogs.CustomLabelDialog
-import org.fossify.contacts.dialogs.ManageVisibleFieldsDialog
-import org.fossify.contacts.dialogs.MyDatePickerDialog
-import org.fossify.contacts.dialogs.SelectGroupsDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.extensions.getCachePhotoUri
-import org.fossify.contacts.extensions.showContactSourcePicker
-import org.fossify.contacts.helpers.ADD_NEW_CONTACT_NUMBER
-import org.fossify.contacts.helpers.IS_FROM_SIMPLE_CONTACTS
-import org.fossify.contacts.helpers.KEY_EMAIL
-import org.fossify.contacts.helpers.KEY_NAME
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.adapters.AutoCompleteTextViewAdapter
+import org.fossify.arfoxcontacts.databinding.*
+import org.fossify.arfoxcontacts.dialogs.CustomLabelDialog
+import org.fossify.arfoxcontacts.dialogs.ManageVisibleFieldsDialog
+import org.fossify.arfoxcontacts.dialogs.MyDatePickerDialog
+import org.fossify.arfoxcontacts.dialogs.SelectGroupsDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.extensions.getCachePhotoUri
+import org.fossify.arfoxcontacts.extensions.showContactSourcePicker
+import org.fossify.arfoxcontacts.helpers.ADD_NEW_CONTACT_NUMBER
+import org.fossify.arfoxcontacts.helpers.IS_FROM_SIMPLE_CONTACTS
+import org.fossify.arfoxcontacts.helpers.KEY_EMAIL
+import org.fossify.arfoxcontacts.helpers.KEY_NAME
 
 class EditContactActivity : ContactActivity() {
     companion object {

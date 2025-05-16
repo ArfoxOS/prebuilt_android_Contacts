@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.view.View
 import android.view.ViewGroup
@@ -8,8 +8,8 @@ import org.fossify.commons.extensions.getProperPrimaryColor
 import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.ItemFilterContactSourceBinding
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.ItemFilterContactSourceBinding
 
 class FilterContactSourcesAdapter(
     val activity: SimpleActivity,

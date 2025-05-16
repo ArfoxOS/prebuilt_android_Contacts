@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -13,17 +13,17 @@ import org.fossify.commons.databinding.BottomTablayoutItemBinding
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.R
-import org.fossify.contacts.adapters.ViewPagerAdapter
-import org.fossify.contacts.databinding.ActivityInsertEditContactBinding
-import org.fossify.contacts.dialogs.ChangeSortingDialog
-import org.fossify.contacts.dialogs.FilterContactSourcesDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.fragments.MyViewPagerFragment
-import org.fossify.contacts.helpers.ADD_NEW_CONTACT_NUMBER
-import org.fossify.contacts.helpers.KEY_EMAIL
-import org.fossify.contacts.helpers.KEY_NAME
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.adapters.ViewPagerAdapter
+import org.fossify.arfoxcontacts.databinding.ActivityInsertEditContactBinding
+import org.fossify.arfoxcontacts.dialogs.ChangeSortingDialog
+import org.fossify.arfoxcontacts.dialogs.FilterContactSourcesDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.fragments.MyViewPagerFragment
+import org.fossify.arfoxcontacts.helpers.ADD_NEW_CONTACT_NUMBER
+import org.fossify.arfoxcontacts.helpers.KEY_EMAIL
+import org.fossify.arfoxcontacts.helpers.KEY_NAME
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 
 class InsertOrEditContactActivity : SimpleActivity(), RefreshContactsListener {
     companion object {

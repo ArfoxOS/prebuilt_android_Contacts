@@ -1,4 +1,4 @@
-package org.fossify.contacts.helpers
+package org.fossify.arfoxcontacts.helpers
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -18,11 +18,11 @@ import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.DEFAULT_MIMETYPE
 import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.contacts.*
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.extensions.getCachePhotoUri
-import org.fossify.contacts.helpers.VcfImporter.ImportResult.IMPORT_FAIL
-import org.fossify.contacts.helpers.VcfImporter.ImportResult.IMPORT_OK
-import org.fossify.contacts.helpers.VcfImporter.ImportResult.IMPORT_PARTIAL
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.extensions.getCachePhotoUri
+import org.fossify.arfoxcontacts.helpers.VcfImporter.ImportResult.IMPORT_FAIL
+import org.fossify.arfoxcontacts.helpers.VcfImporter.ImportResult.IMPORT_OK
+import org.fossify.arfoxcontacts.helpers.VcfImporter.ImportResult.IMPORT_PARTIAL
 import java.io.File
 import java.io.FileOutputStream
 import java.net.URLDecoder

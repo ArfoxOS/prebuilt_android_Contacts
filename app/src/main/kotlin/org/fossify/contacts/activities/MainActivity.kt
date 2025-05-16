@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
@@ -20,20 +20,20 @@ import org.fossify.commons.models.FAQItem
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.Release
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.BuildConfig
-import org.fossify.contacts.R
-import org.fossify.contacts.adapters.ViewPagerAdapter
-import org.fossify.contacts.databinding.ActivityMainBinding
-import org.fossify.contacts.dialogs.ChangeSortingDialog
-import org.fossify.contacts.dialogs.FilterContactSourcesDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.extensions.handleGenericContactClick
-import org.fossify.contacts.extensions.tryImportContactsFromFile
-import org.fossify.contacts.fragments.FavoritesFragment
-import org.fossify.contacts.fragments.MyViewPagerFragment
-import org.fossify.contacts.helpers.ALL_TABS_MASK
-import org.fossify.contacts.helpers.tabsList
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.BuildConfig
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.adapters.ViewPagerAdapter
+import org.fossify.arfoxcontacts.databinding.ActivityMainBinding
+import org.fossify.arfoxcontacts.dialogs.ChangeSortingDialog
+import org.fossify.arfoxcontacts.dialogs.FilterContactSourcesDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.extensions.handleGenericContactClick
+import org.fossify.arfoxcontacts.extensions.tryImportContactsFromFile
+import org.fossify.arfoxcontacts.fragments.FavoritesFragment
+import org.fossify.arfoxcontacts.fragments.MyViewPagerFragment
+import org.fossify.arfoxcontacts.helpers.ALL_TABS_MASK
+import org.fossify.arfoxcontacts.helpers.tabsList
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 import java.util.Arrays
 
 class MainActivity : SimpleActivity(), RefreshContactsListener {

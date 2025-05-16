@@ -1,4 +1,4 @@
-package org.fossify.contacts.interfaces
+package org.fossify.arfoxcontacts.interfaces
 
 import org.fossify.commons.models.contacts.Contact
 

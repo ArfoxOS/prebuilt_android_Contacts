@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.getAlertDialogBuilder
@@ -8,13 +8,13 @@ import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.DialogImportContactsBinding
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.extensions.showContactSourcePicker
-import org.fossify.contacts.helpers.VcfImporter
-import org.fossify.contacts.helpers.VcfImporter.ImportResult.IMPORT_FAIL
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.DialogImportContactsBinding
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.extensions.showContactSourcePicker
+import org.fossify.arfoxcontacts.helpers.VcfImporter
+import org.fossify.arfoxcontacts.helpers.VcfImporter.ImportResult.IMPORT_FAIL
 
 class ImportContactsDialog(val activity: SimpleActivity, val path: String, private val callback: (refreshView: Boolean) -> Unit) {
     private var targetContactSource = ""

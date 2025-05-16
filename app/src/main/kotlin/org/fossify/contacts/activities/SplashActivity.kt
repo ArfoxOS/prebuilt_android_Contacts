@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.content.Intent
 import org.fossify.commons.activities.BaseSplashActivity

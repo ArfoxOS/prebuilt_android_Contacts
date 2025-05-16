@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -36,16 +36,16 @@ import org.fossify.commons.interfaces.StartReorderDragListener
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.activities.ViewContactActivity
-import org.fossify.contacts.dialogs.CreateNewGroupDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.extensions.editContact
-import org.fossify.contacts.extensions.shareContacts
-import org.fossify.contacts.helpers.*
-import org.fossify.contacts.interfaces.RefreshContactsListener
-import org.fossify.contacts.interfaces.RemoveFromGroupListener
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.activities.ViewContactActivity
+import org.fossify.arfoxcontacts.dialogs.CreateNewGroupDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.extensions.editContact
+import org.fossify.arfoxcontacts.extensions.shareContacts
+import org.fossify.arfoxcontacts.helpers.*
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.interfaces.RemoveFromGroupListener
 import java.util.Collections
 
 class ContactsAdapter(

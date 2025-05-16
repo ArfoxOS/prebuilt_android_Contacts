@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.content.ContentValues
 import android.content.Intent
@@ -8,10 +8,10 @@ import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getColoredDrawableWithColor
 import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.helpers.KEY_PHONE
-import org.fossify.contacts.R
-import org.fossify.contacts.helpers.KEY_MAILTO
-import org.fossify.contacts.helpers.LOCATION_CONTACTS_TAB
-import org.fossify.contacts.helpers.LOCATION_FAVORITES_TAB
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.helpers.KEY_MAILTO
+import org.fossify.arfoxcontacts.helpers.LOCATION_CONTACTS_TAB
+import org.fossify.arfoxcontacts.helpers.LOCATION_FAVORITES_TAB
 
 open class SimpleActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = arrayListOf(

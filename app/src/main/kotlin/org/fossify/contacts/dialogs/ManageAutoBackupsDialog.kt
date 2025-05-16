@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.dialogs.FilePickerDialog
@@ -7,11 +7,11 @@ import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.FilterContactSourcesAdapter
-import org.fossify.contacts.databinding.DialogManageAutomaticBackupsBinding
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.FilterContactSourcesAdapter
+import org.fossify.arfoxcontacts.databinding.DialogManageAutomaticBackupsBinding
+import org.fossify.arfoxcontacts.extensions.config
 import java.io.File
 
 class ManageAutoBackupsDialog(private val activity: SimpleActivity, onSuccess: () -> Unit) {

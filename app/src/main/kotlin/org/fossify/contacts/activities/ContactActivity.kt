@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -28,8 +28,8 @@ import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.letterBackgroundColors
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.R
-import org.fossify.contacts.extensions.shareContacts
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.extensions.shareContacts
 
 abstract class ContactActivity : SimpleActivity() {
     protected val PICK_RINGTONE_INTENT_ID = 1500

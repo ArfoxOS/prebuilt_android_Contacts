@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import android.app.Activity
 import android.view.ViewGroup
@@ -8,9 +8,9 @@ import org.fossify.commons.extensions.beGone
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.models.contacts.SocialAction
-import org.fossify.contacts.databinding.DialogChooseSocialBinding
-import org.fossify.contacts.databinding.ItemChooseSocialBinding
-import org.fossify.contacts.extensions.getPackageDrawable
+import org.fossify.arfoxcontacts.databinding.DialogChooseSocialBinding
+import org.fossify.arfoxcontacts.databinding.ItemChooseSocialBinding
+import org.fossify.arfoxcontacts.extensions.getPackageDrawable
 
 class ChooseSocialDialog(val activity: Activity, actions: ArrayList<SocialAction>, val callback: (action: SocialAction) -> Unit) {
     private lateinit var dialog: AlertDialog

@@ -1,4 +1,4 @@
-package org.fossify.contacts.fragments
+package org.fossify.arfoxcontacts.fragments
 
 import android.content.Context
 import android.util.AttributeSet
@@ -14,15 +14,15 @@ import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MyGridLayoutManager
 import org.fossify.commons.views.MyLinearLayoutManager
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.contacts.activities.MainActivity
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.ContactsAdapter
-import org.fossify.contacts.databinding.FragmentFavoritesBinding
-import org.fossify.contacts.databinding.FragmentLettersLayoutBinding
-import org.fossify.contacts.dialogs.SelectContactsDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.helpers.LOCATION_FAVORITES_TAB
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.activities.MainActivity
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.ContactsAdapter
+import org.fossify.arfoxcontacts.databinding.FragmentFavoritesBinding
+import org.fossify.arfoxcontacts.databinding.FragmentLettersLayoutBinding
+import org.fossify.arfoxcontacts.dialogs.SelectContactsDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.helpers.LOCATION_FAVORITES_TAB
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 
 class FavoritesFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerFragment<MyViewPagerFragment.LetterLayout>(context, attributeSet) {
     private var favouriteContacts = listOf<Contact>()

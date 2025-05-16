@@ -1,15 +1,15 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.models.contacts.Group
 import org.fossify.commons.views.MyAppCompatCheckbox
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.DialogSelectGroupsBinding
-import org.fossify.contacts.databinding.ItemCheckboxBinding
-import org.fossify.contacts.databinding.ItemTextviewBinding
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.DialogSelectGroupsBinding
+import org.fossify.arfoxcontacts.databinding.ItemCheckboxBinding
+import org.fossify.arfoxcontacts.databinding.ItemTextviewBinding
 
 class SelectGroupsDialog(val activity: SimpleActivity, val selectedGroups: ArrayList<Group>, val callback: (newGroups: ArrayList<Group>) -> Unit) {
     private val binding = DialogSelectGroupsBinding.inflate(activity.layoutInflater)

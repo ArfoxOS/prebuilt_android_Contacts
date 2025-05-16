@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.view.View
 import android.view.ViewGroup
@@ -8,9 +8,9 @@ import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.helpers.TAB_CONTACTS
 import org.fossify.commons.helpers.TAB_FAVORITES
 import org.fossify.commons.helpers.TAB_GROUPS
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.fragments.MyViewPagerFragment
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.fragments.MyViewPagerFragment
 
 class ViewPagerAdapter(val activity: SimpleActivity, val currTabsList: ArrayList<Int>, val showTabs: Int) : PagerAdapter() {
 

@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.activities.BaseSimpleActivity
@@ -6,7 +6,7 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Group
-import org.fossify.contacts.databinding.DialogRenameGroupBinding
+import org.fossify.arfoxcontacts.databinding.DialogRenameGroupBinding
 
 class RenameGroupDialog(val activity: BaseSimpleActivity, val group: Group, val callback: () -> Unit) {
     init {

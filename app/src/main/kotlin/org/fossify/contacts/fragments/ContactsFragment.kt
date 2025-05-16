@@ -1,4 +1,4 @@
-package org.fossify.contacts.fragments
+package org.fossify.arfoxcontacts.fragments
 
 import android.content.Context
 import android.content.Intent
@@ -6,16 +6,16 @@ import android.util.AttributeSet
 import org.fossify.commons.extensions.areSystemAnimationsEnabled
 import org.fossify.commons.extensions.hideKeyboard
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.activities.EditContactActivity
-import org.fossify.contacts.activities.InsertOrEditContactActivity
-import org.fossify.contacts.activities.MainActivity
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.ContactsAdapter
-import org.fossify.contacts.databinding.FragmentContactsBinding
-import org.fossify.contacts.databinding.FragmentLettersLayoutBinding
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.helpers.LOCATION_CONTACTS_TAB
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.activities.EditContactActivity
+import org.fossify.arfoxcontacts.activities.InsertOrEditContactActivity
+import org.fossify.arfoxcontacts.activities.MainActivity
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.ContactsAdapter
+import org.fossify.arfoxcontacts.databinding.FragmentContactsBinding
+import org.fossify.arfoxcontacts.databinding.FragmentLettersLayoutBinding
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.helpers.LOCATION_CONTACTS_TAB
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 
 class ContactsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerFragment<MyViewPagerFragment.LetterLayout>(context, attributeSet) {
 

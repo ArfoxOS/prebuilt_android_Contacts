@@ -24,8 +24,8 @@
         android:required="false" />
 
     <queries>
-        <package android:name="org.fossify.contacts.debug" />
-        <package android:name="org.fossify.contacts" />
+        <package android:name="org.fossify.arfoxcontacts.debug" />
+        <package android:name="org.fossify.arfoxcontacts" />
 
         <!-- Required for loading contact accounts -->
         <intent>

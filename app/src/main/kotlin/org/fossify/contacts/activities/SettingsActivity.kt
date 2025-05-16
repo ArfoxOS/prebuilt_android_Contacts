@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -10,14 +10,14 @@ import org.fossify.commons.dialogs.RadioGroupDialog
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.RadioItem
-import org.fossify.contacts.R
-import org.fossify.contacts.databinding.ActivitySettingsBinding
-import org.fossify.contacts.dialogs.ExportContactsDialog
-import org.fossify.contacts.dialogs.ManageAutoBackupsDialog
-import org.fossify.contacts.dialogs.ManageVisibleFieldsDialog
-import org.fossify.contacts.dialogs.ManageVisibleTabsDialog
-import org.fossify.contacts.extensions.*
-import org.fossify.contacts.helpers.VcfExporter
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.databinding.ActivitySettingsBinding
+import org.fossify.arfoxcontacts.dialogs.ExportContactsDialog
+import org.fossify.arfoxcontacts.dialogs.ManageAutoBackupsDialog
+import org.fossify.arfoxcontacts.dialogs.ManageVisibleFieldsDialog
+import org.fossify.arfoxcontacts.dialogs.ManageVisibleTabsDialog
+import org.fossify.arfoxcontacts.extensions.*
+import org.fossify.arfoxcontacts.helpers.VcfExporter
 import java.io.OutputStream
 import java.util.Locale
 import kotlin.system.exitProcess

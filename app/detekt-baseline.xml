@@ -267,7 +267,7 @@
     <ID>WildcardImport:ContactActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:ContactsAdapter.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:ContactsAdapter.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:ContactsAdapter.kt$import org.fossify.contacts.helpers.*</ID>
+    <ID>WildcardImport:ContactsAdapter.kt$import org.fossify.arfoxcontacts.helpers.*</ID>
     <ID>WildcardImport:Context.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:Context.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:CreateNewGroupDialog.kt$import org.fossify.commons.extensions.*</ID>
@@ -276,7 +276,7 @@
     <ID>WildcardImport:EditContactActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:EditContactActivity.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:EditContactActivity.kt$import org.fossify.commons.models.contacts.*</ID>
-    <ID>WildcardImport:EditContactActivity.kt$import org.fossify.contacts.databinding.*</ID>
+    <ID>WildcardImport:EditContactActivity.kt$import org.fossify.arfoxcontacts.databinding.*</ID>
     <ID>WildcardImport:ExportContactsDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:GroupContactsActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:InsertOrEditContactActivity.kt$import org.fossify.commons.extensions.*</ID>
@@ -293,14 +293,14 @@
     <ID>WildcardImport:SelectGroupsDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:SettingsActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:SettingsActivity.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:SettingsActivity.kt$import org.fossify.contacts.extensions.*</ID>
+    <ID>WildcardImport:SettingsActivity.kt$import org.fossify.arfoxcontacts.extensions.*</ID>
     <ID>WildcardImport:VcfExporter.kt$import ezvcard.property.*</ID>
     <ID>WildcardImport:VcfImporter.kt$import org.fossify.commons.models.contacts.*</ID>
     <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.commons.models.contacts.*</ID>
-    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.contacts.databinding.*</ID>
-    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.contacts.extensions.*</ID>
-    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.contacts.helpers.*</ID>
+    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.arfoxcontacts.databinding.*</ID>
+    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.arfoxcontacts.extensions.*</ID>
+    <ID>WildcardImport:ViewContactActivity.kt$import org.fossify.arfoxcontacts.helpers.*</ID>
   </CurrentIssues>
 </SmellBaseline>

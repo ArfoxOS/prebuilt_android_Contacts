@@ -1,4 +1,4 @@
-package org.fossify.contacts.extensions
+package org.fossify.arfoxcontacts.extensions
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
@@ -11,14 +11,14 @@ import androidx.core.content.FileProvider
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.BuildConfig
-import org.fossify.contacts.R
-import org.fossify.contacts.helpers.AUTOMATIC_BACKUP_REQUEST_CODE
-import org.fossify.contacts.helpers.Config
-import org.fossify.contacts.helpers.VcfExporter
-import org.fossify.contacts.helpers.getNextAutoBackupTime
-import org.fossify.contacts.helpers.getPreviousAutoBackupTime
-import org.fossify.contacts.receivers.AutomaticBackupReceiver
+import org.fossify.arfoxcontacts.BuildConfig
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.helpers.AUTOMATIC_BACKUP_REQUEST_CODE
+import org.fossify.arfoxcontacts.helpers.Config
+import org.fossify.arfoxcontacts.helpers.VcfExporter
+import org.fossify.arfoxcontacts.helpers.getNextAutoBackupTime
+import org.fossify.arfoxcontacts.helpers.getPreviousAutoBackupTime
+import org.fossify.arfoxcontacts.receivers.AutomaticBackupReceiver
 import org.joda.time.DateTime
 import java.io.File
 import java.io.FileOutputStream

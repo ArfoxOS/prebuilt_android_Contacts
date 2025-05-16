@@ -1,4 +1,4 @@
-package org.fossify.contacts.extensions
+package org.fossify.arfoxcontacts.extensions
 
 import android.app.Activity
 import android.content.Intent
@@ -10,14 +10,14 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.BuildConfig
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.EditContactActivity
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.activities.ViewContactActivity
-import org.fossify.contacts.dialogs.ImportContactsDialog
-import org.fossify.contacts.helpers.DEFAULT_FILE_NAME
-import org.fossify.contacts.helpers.VcfExporter
+import org.fossify.arfoxcontacts.BuildConfig
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.EditContactActivity
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.activities.ViewContactActivity
+import org.fossify.arfoxcontacts.dialogs.ImportContactsDialog
+import org.fossify.arfoxcontacts.helpers.DEFAULT_FILE_NAME
+import org.fossify.arfoxcontacts.helpers.VcfExporter
 import java.io.FileOutputStream
 
 fun SimpleActivity.startCallIntent(recipient: String) {

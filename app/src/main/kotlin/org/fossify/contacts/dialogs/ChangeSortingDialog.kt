@@ -1,13 +1,13 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.beGoneIf
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.helpers.*
-import org.fossify.contacts.R
-import org.fossify.contacts.databinding.DialogChangeSortingBinding
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.databinding.DialogChangeSortingBinding
+import org.fossify.arfoxcontacts.extensions.config
 
 class ChangeSortingDialog(val activity: BaseSimpleActivity, private val showCustomSorting: Boolean = false, private val callback: () -> Unit) {
     private var currSorting = 0

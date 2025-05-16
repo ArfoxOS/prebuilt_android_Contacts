@@ -1,13 +1,13 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import com.reddit.indicatorfastscroll.FastScrollItemIndicator
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.SelectContactsAdapter
-import org.fossify.contacts.databinding.DialogSelectContactBinding
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.SelectContactsAdapter
+import org.fossify.arfoxcontacts.databinding.DialogSelectContactBinding
 import java.util.Locale
 
 class SelectContactsDialog(

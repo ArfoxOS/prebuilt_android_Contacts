@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import android.view.View
 import androidx.appcompat.app.AlertDialog
@@ -10,8 +10,8 @@ import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.contacts.ContactSource
 import org.fossify.commons.models.contacts.Group
-import org.fossify.contacts.R
-import org.fossify.contacts.databinding.DialogCreateNewGroupBinding
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.databinding.DialogCreateNewGroupBinding
 
 class CreateNewGroupDialog(val activity: BaseSimpleActivity, val callback: (newGroup: Group) -> Unit) {
     init {

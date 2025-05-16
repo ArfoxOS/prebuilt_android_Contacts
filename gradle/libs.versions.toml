@@ -26,7 +26,7 @@ app-build-minimumSDK = "26"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
-app-version-appId = "org.fossify.contacts"
+app-version-appId = "org.fossify.arfoxcontacts"
 app-version-versionCode = "3"
 app-version-versionName = "1.1.0"
 [libraries]

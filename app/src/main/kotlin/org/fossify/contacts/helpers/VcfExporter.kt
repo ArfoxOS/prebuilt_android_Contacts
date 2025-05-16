@@ -1,4 +1,4 @@
-package org.fossify.contacts.helpers
+package org.fossify.arfoxcontacts.helpers
 
 import android.content.Context
 import android.net.Uri
@@ -18,7 +18,7 @@ import org.fossify.commons.extensions.getDateTimeFromDateString
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.helpers.VcfExporter.ExportResult.EXPORT_FAIL
+import org.fossify.arfoxcontacts.helpers.VcfExporter.ExportResult.EXPORT_FAIL
 import java.io.OutputStream
 import java.util.Calendar
 

@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.extensions.getAlertDialogBuilder
@@ -8,10 +8,10 @@ import org.fossify.commons.helpers.ContactsHelper
 import org.fossify.commons.helpers.SMT_PRIVATE
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.FilterContactSourcesAdapter
-import org.fossify.contacts.databinding.DialogFilterContactSourcesBinding
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.FilterContactSourcesAdapter
+import org.fossify.arfoxcontacts.databinding.DialogFilterContactSourcesBinding
+import org.fossify.arfoxcontacts.extensions.config
 
 class FilterContactSourcesDialog(val activity: SimpleActivity, private val callback: () -> Unit) {
     private var dialog: AlertDialog? = null

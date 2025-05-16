@@ -1496,7 +1496,7 @@
     <issue
         id="UnusedResources"
         message="The resource `R.string.package_name` appears to be unused"
-        errorLine1="    &lt;string name=&quot;package_name&quot; translatable=&quot;false&quot;>org.fossify.contacts&lt;/string>"
+        errorLine1="    &lt;string name=&quot;package_name&quot; translatable=&quot;false&quot;>org.fossify.arfoxcontacts&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/donottranslate.xml"

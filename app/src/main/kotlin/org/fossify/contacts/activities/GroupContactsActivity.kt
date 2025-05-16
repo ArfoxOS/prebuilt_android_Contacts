@@ -1,4 +1,4 @@
-package org.fossify.contacts.activities
+package org.fossify.arfoxcontacts.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -12,15 +12,15 @@ import org.fossify.commons.helpers.NavigationIcon
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.models.contacts.Group
-import org.fossify.contacts.R
-import org.fossify.contacts.adapters.ContactsAdapter
-import org.fossify.contacts.databinding.ActivityGroupContactsBinding
-import org.fossify.contacts.dialogs.SelectContactsDialog
-import org.fossify.contacts.extensions.handleGenericContactClick
-import org.fossify.contacts.helpers.GROUP
-import org.fossify.contacts.helpers.LOCATION_GROUP_CONTACTS
-import org.fossify.contacts.interfaces.RefreshContactsListener
-import org.fossify.contacts.interfaces.RemoveFromGroupListener
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.adapters.ContactsAdapter
+import org.fossify.arfoxcontacts.databinding.ActivityGroupContactsBinding
+import org.fossify.arfoxcontacts.dialogs.SelectContactsDialog
+import org.fossify.arfoxcontacts.extensions.handleGenericContactClick
+import org.fossify.arfoxcontacts.helpers.GROUP
+import org.fossify.arfoxcontacts.helpers.LOCATION_GROUP_CONTACTS
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.interfaces.RemoveFromGroupListener
 
 class GroupContactsActivity : SimpleActivity(), RemoveFromGroupListener, RefreshContactsListener {
     private var allContacts = ArrayList<Contact>()

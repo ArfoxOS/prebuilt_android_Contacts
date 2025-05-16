@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.util.TypedValue
 import android.view.Menu
@@ -17,12 +17,12 @@ import org.fossify.commons.helpers.TAB_GROUPS
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.contacts.Group
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.ItemGroupBinding
-import org.fossify.contacts.dialogs.RenameGroupDialog
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.ItemGroupBinding
+import org.fossify.arfoxcontacts.dialogs.RenameGroupDialog
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 
 class GroupsAdapter(
     activity: SimpleActivity, var groups: ArrayList<Group>, val refreshListener: RefreshContactsListener?, recyclerView: MyRecyclerView,

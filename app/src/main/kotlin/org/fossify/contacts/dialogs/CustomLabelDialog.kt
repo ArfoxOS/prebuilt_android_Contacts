@@ -1,9 +1,9 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.*
-import org.fossify.contacts.databinding.DialogCustomLabelBinding
+import org.fossify.arfoxcontacts.databinding.DialogCustomLabelBinding
 
 class CustomLabelDialog(val activity: BaseSimpleActivity, val callback: (label: String) -> Unit) {
     init {

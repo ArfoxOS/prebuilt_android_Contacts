@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.graphics.drawable.BitmapDrawable
 import android.util.SparseArray
@@ -19,10 +19,10 @@ import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.models.contacts.Contact
 import org.fossify.commons.views.MyAppCompatCheckbox
 import org.fossify.commons.views.MyRecyclerView
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.ItemAddFavoriteWithNumberBinding
-import org.fossify.contacts.databinding.ItemAddFavoriteWithoutNumberBinding
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.ItemAddFavoriteWithNumberBinding
+import org.fossify.arfoxcontacts.databinding.ItemAddFavoriteWithoutNumberBinding
+import org.fossify.arfoxcontacts.extensions.config
 
 class SelectContactsAdapter(
     val activity: SimpleActivity, var contacts: ArrayList<Contact>, private val selectedContacts: ArrayList<Contact>, private val allowPickMultiple: Boolean,

@@ -1,4 +1,4 @@
-package org.fossify.contacts.adapters
+package org.fossify.arfoxcontacts.adapters
 
 import android.graphics.drawable.BitmapDrawable
 import android.view.View
@@ -15,8 +15,8 @@ import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.extensions.normalizeString
 import org.fossify.commons.helpers.SimpleContactsHelper
 import org.fossify.commons.models.contacts.Contact
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.ItemAutocompleteNameNumberBinding
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.ItemAutocompleteNameNumberBinding
 
 class AutoCompleteTextViewAdapter(
     val activity: SimpleActivity,

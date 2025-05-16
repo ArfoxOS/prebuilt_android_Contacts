@@ -1,12 +1,12 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.helpers.*
 import org.fossify.commons.views.MyAppCompatCheckbox
-import org.fossify.contacts.R
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.extensions.config
 
 class ManageVisibleFieldsDialog(val activity: BaseSimpleActivity, val callback: (hasSomethingChanged: Boolean) -> Unit) {
     private var view = activity.layoutInflater.inflate(R.layout.dialog_manage_visible_fields, null)

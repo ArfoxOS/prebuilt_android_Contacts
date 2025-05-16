@@ -1,4 +1,4 @@
-package org.fossify.contacts.helpers
+package org.fossify.arfoxcontacts.helpers
 
 import android.content.Context
 import org.fossify.commons.helpers.BaseConfig

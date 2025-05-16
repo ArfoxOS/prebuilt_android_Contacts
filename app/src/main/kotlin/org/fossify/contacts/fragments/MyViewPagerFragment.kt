@@ -1,4 +1,4 @@
-package org.fossify.contacts.fragments
+package org.fossify.arfoxcontacts.fragments
 
 import android.content.Context
 import android.content.Intent
@@ -18,21 +18,21 @@ import org.fossify.commons.models.contacts.Group
 import org.fossify.commons.views.MyFloatingActionButton
 import org.fossify.commons.views.MyRecyclerView
 import org.fossify.commons.views.MyTextView
-import org.fossify.contacts.R
-import org.fossify.contacts.activities.GroupContactsActivity
-import org.fossify.contacts.activities.InsertOrEditContactActivity
-import org.fossify.contacts.activities.MainActivity
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.adapters.ContactsAdapter
-import org.fossify.contacts.adapters.GroupsAdapter
-import org.fossify.contacts.databinding.FragmentLayoutBinding
-import org.fossify.contacts.databinding.FragmentLettersLayoutBinding
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.helpers.AVOID_CHANGING_TEXT_TAG
-import org.fossify.contacts.helpers.AVOID_CHANGING_VISIBILITY_TAG
-import org.fossify.contacts.helpers.Config
-import org.fossify.contacts.helpers.GROUP
-import org.fossify.contacts.interfaces.RefreshContactsListener
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.activities.GroupContactsActivity
+import org.fossify.arfoxcontacts.activities.InsertOrEditContactActivity
+import org.fossify.arfoxcontacts.activities.MainActivity
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.adapters.ContactsAdapter
+import org.fossify.arfoxcontacts.adapters.GroupsAdapter
+import org.fossify.arfoxcontacts.databinding.FragmentLayoutBinding
+import org.fossify.arfoxcontacts.databinding.FragmentLettersLayoutBinding
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.helpers.AVOID_CHANGING_TEXT_TAG
+import org.fossify.arfoxcontacts.helpers.AVOID_CHANGING_VISIBILITY_TAG
+import org.fossify.arfoxcontacts.helpers.Config
+import org.fossify.arfoxcontacts.helpers.GROUP
+import org.fossify.arfoxcontacts.interfaces.RefreshContactsListener
 import java.util.Locale
 
 abstract class MyViewPagerFragment<Binding : MyViewPagerFragment.InnerBinding>(context: Context, attributeSet: AttributeSet) :

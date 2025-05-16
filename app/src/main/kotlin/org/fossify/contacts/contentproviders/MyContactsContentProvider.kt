@@ -1,4 +1,4 @@
-package org.fossify.contacts.contentproviders
+package org.fossify.arfoxcontacts.contentproviders
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -8,7 +8,7 @@ import android.net.Uri
 import com.google.gson.Gson
 import org.fossify.commons.helpers.LocalContactsHelper
 import org.fossify.commons.helpers.MyContactsContentProvider
-import org.fossify.contacts.extensions.config
+import org.fossify.arfoxcontacts.extensions.config
 
 class MyContactsContentProvider : ContentProvider() {
     override fun insert(uri: Uri, contentValues: ContentValues?) = null

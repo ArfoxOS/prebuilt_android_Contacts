@@ -1,13 +1,13 @@
-package org.fossify.contacts.fragments
+package org.fossify.arfoxcontacts.fragments
 
 import android.content.Context
 import android.util.AttributeSet
 import org.fossify.commons.helpers.TAB_GROUPS
-import org.fossify.contacts.activities.MainActivity
-import org.fossify.contacts.activities.SimpleActivity
-import org.fossify.contacts.databinding.FragmentGroupsBinding
-import org.fossify.contacts.databinding.FragmentLayoutBinding
-import org.fossify.contacts.dialogs.CreateNewGroupDialog
+import org.fossify.arfoxcontacts.activities.MainActivity
+import org.fossify.arfoxcontacts.activities.SimpleActivity
+import org.fossify.arfoxcontacts.databinding.FragmentGroupsBinding
+import org.fossify.arfoxcontacts.databinding.FragmentLayoutBinding
+import org.fossify.arfoxcontacts.dialogs.CreateNewGroupDialog
 
 class GroupsFragment(context: Context, attributeSet: AttributeSet) : MyViewPagerFragment<MyViewPagerFragment.FragmentLayout>(context, attributeSet) {
 

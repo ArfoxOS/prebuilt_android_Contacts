@@ -1,11 +1,11 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.isDynamicTheme
 import org.fossify.commons.extensions.setupDialogStuff
 import org.fossify.commons.helpers.isSPlus
-import org.fossify.contacts.databinding.DialogDatePickerBinding
+import org.fossify.arfoxcontacts.databinding.DialogDatePickerBinding
 import org.joda.time.DateTime
 import java.util.Calendar
 

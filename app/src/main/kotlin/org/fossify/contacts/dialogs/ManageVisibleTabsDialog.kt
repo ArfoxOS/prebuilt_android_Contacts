@@ -1,4 +1,4 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
@@ -7,9 +7,9 @@ import org.fossify.commons.helpers.TAB_CONTACTS
 import org.fossify.commons.helpers.TAB_FAVORITES
 import org.fossify.commons.helpers.TAB_GROUPS
 import org.fossify.commons.views.MyAppCompatCheckbox
-import org.fossify.contacts.R
-import org.fossify.contacts.extensions.config
-import org.fossify.contacts.helpers.ALL_TABS_MASK
+import org.fossify.arfoxcontacts.R
+import org.fossify.arfoxcontacts.extensions.config
+import org.fossify.arfoxcontacts.helpers.ALL_TABS_MASK
 
 class ManageVisibleTabsDialog(val activity: BaseSimpleActivity) {
     private var view = activity.layoutInflater.inflate(R.layout.dialog_manage_visible_tabs, null)

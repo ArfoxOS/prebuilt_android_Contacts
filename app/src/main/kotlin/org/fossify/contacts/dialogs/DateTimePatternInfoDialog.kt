@@ -1,9 +1,9 @@
-package org.fossify.contacts.dialogs
+package org.fossify.arfoxcontacts.dialogs
 
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.getAlertDialogBuilder
 import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.contacts.R
+import org.fossify.arfoxcontacts.R
 
 class DateTimePatternInfoDialog(activity: BaseSimpleActivity) {
 
